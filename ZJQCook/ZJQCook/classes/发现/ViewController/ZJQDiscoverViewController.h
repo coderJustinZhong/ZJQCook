@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZJQDiscoverViewController.h
 //  ZJQCook
 //
 //  Created by abc on 16/10/3.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZJQDiscoverViewController : UIViewController
 
 @end
-

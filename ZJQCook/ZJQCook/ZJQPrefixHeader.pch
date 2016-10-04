@@ -1,0 +1,17 @@
+//
+//  ZJQPrefixHeader.pch
+//  ZJQCook
+//
+//  Created by abc on 16/10/3.
+//  Copyright © 2016年 ZJQ. All rights reserved.
+//
+
+#ifndef ZJQPrefixHeader_pch
+#define ZJQPrefixHeader_pch
+
+#define RGBAColor(R,G,B,A)  [UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:(A)]
+
+#import "NSObject+ZJQConstant.h"
+#import "UIView+ZJQExtention.h"
+#import <YYKit.h>
+#endif /* ZJQPrefixHeader_pch */

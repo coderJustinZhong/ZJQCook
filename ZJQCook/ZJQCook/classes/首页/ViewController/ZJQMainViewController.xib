@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJQMainViewController">
+            <connections>
+                <outlet property="TableView" destination="W5R-sD-L4t" id="PGu-S8-Zd4"/>
+                <outlet property="locationBtn" destination="07O-or-m54" id="h9P-TW-4t9"/>
+                <outlet property="navView" destination="Smn-kj-clR" id="aIV-cz-0ad"/>
+                <outlet property="view" destination="5KU-Ef-44d" id="e7b-6w-4wr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="5KU-Ef-44d">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W5R-sD-L4t">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Smn-kj-clR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sBT-rL-XNA">
+                            <rect key="frame" x="0.0" y="63" width="375" height="1"/>
+                            <color key="backgroundColor" red="0.98039215686274506" green="0.52156862745098043" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="JPu-3Z-L0q"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="sBT-rL-XNA" firstAttribute="leading" secondItem="Smn-kj-clR" secondAttribute="leading" id="2Dj-hR-BOF"/>
+                        <constraint firstAttribute="bottom" secondItem="sBT-rL-XNA" secondAttribute="bottom" id="2Gk-mT-3Gf"/>
+                        <constraint firstAttribute="height" constant="64" id="GDi-cs-kBv"/>
+                        <constraint firstAttribute="trailing" secondItem="sBT-rL-XNA" secondAttribute="trailing" id="zOw-bD-Lfb"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07O-or-m54">
+                    <rect key="frame" x="107" y="28" width="160" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="gmI-H4-TS3"/>
+                        <constraint firstAttribute="width" constant="160" id="oO0-oa-R8n"/>
+                    </constraints>
+                    <state key="normal" title="建业苑"/>
+                    <state key="highlighted">
+                        <color key="titleColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRB-4u-9ae">
+                    <rect key="frame" x="335" y="23" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="GeO-3O-EE5"/>
+                        <constraint firstAttribute="width" constant="40" id="RCy-xQ-Wmy"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="搜索icon"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Smn-kj-clR" secondAttribute="trailing" id="0nO-Ep-mH7"/>
+                <constraint firstItem="07O-or-m54" firstAttribute="centerX" secondItem="Smn-kj-clR" secondAttribute="centerX" id="1IC-oN-9ch"/>
+                <constraint firstAttribute="trailing" secondItem="W5R-sD-L4t" secondAttribute="trailing" id="1jt-mx-1Ou"/>
+                <constraint firstItem="IRB-4u-9ae" firstAttribute="centerY" secondItem="07O-or-m54" secondAttribute="centerY" id="AYI-aF-xIO"/>
+                <constraint firstItem="Smn-kj-clR" firstAttribute="leading" secondItem="5KU-Ef-44d" secondAttribute="leading" id="Cxa-SW-9yr"/>
+                <constraint firstItem="Smn-kj-clR" firstAttribute="top" secondItem="5KU-Ef-44d" secondAttribute="top" id="DtM-bz-Yw5"/>
+                <constraint firstItem="W5R-sD-L4t" firstAttribute="leading" secondItem="5KU-Ef-44d" secondAttribute="leading" id="FWN-Ox-UM3"/>
+                <constraint firstItem="IRB-4u-9ae" firstAttribute="trailing" secondItem="Smn-kj-clR" secondAttribute="trailing" id="LFI-JI-lO3"/>
+                <constraint firstAttribute="bottom" secondItem="W5R-sD-L4t" secondAttribute="bottom" id="Sfi-zh-FoX"/>
+                <constraint firstItem="07O-or-m54" firstAttribute="bottom" secondItem="Smn-kj-clR" secondAttribute="bottom" constant="-6" id="odK-1g-Tfd"/>
+                <constraint firstItem="W5R-sD-L4t" firstAttribute="top" secondItem="5KU-Ef-44d" secondAttribute="top" id="uQn-Cb-REr"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="581.5" y="215.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="搜索icon" width="44" height="44"/>
+    </resources>
+</document>

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ZJQTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    ZJQTabBarController * tabbarVc = [[ZJQTabBarController alloc]init];
+    self.window.rootViewController = tabbarVc;
+    [self.window makeKeyAndVisible];
+   
+    //设置tabbar的title颜色
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : RGBAColor(242, 114, 66, 1) } forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : RGBAColor(157, 158, 156, 1)} forState:UIControlStateNormal];
+    
     return YES;
 }
 
