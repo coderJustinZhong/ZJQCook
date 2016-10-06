@@ -8,17 +8,27 @@
 
 #import "ZJQMainViewController.h"
 #import "ZJQHeaderViewCell.h"
+#import "ZJQNetworkManager.h"
+#import <MJExtension.h>
+//#import "ZJQheaderAdListModel.h"
+#import "ZJQheaderAdModel.h"
 @interface ZJQMainViewController ()<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *TableView;
 /**头部位置按钮*/
 @property (weak, nonatomic) IBOutlet UIButton *locationBtn;
 /**头部导航条*/
 @property (weak, nonatomic) IBOutlet UIView *navView;
-
+@property(strong,nonatomic)NSMutableArray * testarray;
 @end
 
 @implementation ZJQMainViewController
-
+-(NSMutableArray *)testarray
+{
+    if (!_testarray) {
+        _testarray = [NSMutableArray array];
+    }
+    return _testarray;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUpbasic];
@@ -36,6 +46,11 @@
     self.locationBtn.layer.cornerRadius = self.locationBtn.height/2;
     self.locationBtn.layer.masksToBounds = YES;
     self.navView.alpha = 0;
+    
+    [[ZJQNetworkManager shareNetworkTool] POST:@"http://user.mapi.jiashuangkuaizi.com/UFocus/list" parameters:nil completionHandler:^(NSDictionary * responseObj, NSError *error) {
+        
+    }];
+    
     
 }
 #pragma mark - UITableViewDataSource

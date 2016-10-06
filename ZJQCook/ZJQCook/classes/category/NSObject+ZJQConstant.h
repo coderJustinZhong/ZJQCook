@@ -11,4 +11,9 @@
 
 #define ZJQKeyWindow  [UIApplication sharedApplication].keyWindow
 
+/*********** NSUserDefaults keys **************/
+/** 保存当前经度 */
+#define kCurrentLongitudeKey @"kCurrentLongitudeKey"
+/** 保存当前纬度 */
+#define kCurrentLatitudeKey @"kCurrentLatitudeKey"
 

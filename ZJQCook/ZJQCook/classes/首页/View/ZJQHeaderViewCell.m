@@ -37,7 +37,7 @@
 }
 - (void)setUpChildView
 {
-   
+    
     CGFloat x = 0;
     CGFloat width = ZJQKeyWindow.width / 4;
     for (int i =0; i<4; i++) {
@@ -47,6 +47,9 @@
         [btn setTitle:@"家乡馆" forState:UIControlStateNormal];
         [self.secondView addSubview:btn];
     }
+}
+- (void)setHeaderAdModel:(id)headerAdModel
+{
     
 }
 @end

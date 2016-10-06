@@ -12,6 +12,9 @@
 		280361021DA26CA0008FDFCD /* UIView+ZJQExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 280361011DA26CA0008FDFCD /* UIView+ZJQExtention.m */; };
 		2803610B1DA29C93008FDFCD /* ZJQVerticalBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 2803610A1DA29C93008FDFCD /* ZJQVerticalBtn.m */; };
 		280361161DA37F8B008FDFCD /* ZJQNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 280361151DA37F8B008FDFCD /* ZJQNetworkManager.m */; };
+		280361191DA4E4BE008FDFCD /* ZJQheaderAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 280361181DA4E4BE008FDFCD /* ZJQheaderAdModel.m */; };
+		280361251DA5F209008FDFCD /* ZJQheaderAdListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 280361241DA5F209008FDFCD /* ZJQheaderAdListModel.m */; };
+		280361281DA5F353008FDFCD /* UIScrollView+ZJQRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 280361271DA5F353008FDFCD /* UIScrollView+ZJQRefresh.m */; };
 		285450E41DA21A0900C887E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285450E31DA21A0900C887E5 /* Assets.xcassets */; };
 		285450F21DA21A0900C887E5 /* ZJQCookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 285450F11DA21A0900C887E5 /* ZJQCookTests.m */; };
 		285450FD1DA21A0900C887E5 /* ZJQCookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 285450FC1DA21A0900C887E5 /* ZJQCookUITests.m */; };
@@ -55,6 +58,12 @@
 		2803610A1DA29C93008FDFCD /* ZJQVerticalBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJQVerticalBtn.m; sourceTree = "<group>"; };
 		280361141DA37F8B008FDFCD /* ZJQNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJQNetworkManager.h; sourceTree = "<group>"; };
 		280361151DA37F8B008FDFCD /* ZJQNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJQNetworkManager.m; sourceTree = "<group>"; };
+		280361171DA4E4BE008FDFCD /* ZJQheaderAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJQheaderAdModel.h; sourceTree = "<group>"; };
+		280361181DA4E4BE008FDFCD /* ZJQheaderAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJQheaderAdModel.m; sourceTree = "<group>"; };
+		280361231DA5F209008FDFCD /* ZJQheaderAdListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJQheaderAdListModel.h; sourceTree = "<group>"; };
+		280361241DA5F209008FDFCD /* ZJQheaderAdListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJQheaderAdListModel.m; sourceTree = "<group>"; };
+		280361261DA5F353008FDFCD /* UIScrollView+ZJQRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ZJQRefresh.h"; sourceTree = "<group>"; };
+		280361271DA5F353008FDFCD /* UIScrollView+ZJQRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ZJQRefresh.m"; sourceTree = "<group>"; };
 		285450D41DA21A0900C887E5 /* ZJQCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJQCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		285450E31DA21A0900C887E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		285450E81DA21A0900C887E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,6 +134,8 @@
 				280361001DA26CA0008FDFCD /* UIView+ZJQExtention.h */,
 				280361011DA26CA0008FDFCD /* UIView+ZJQExtention.m */,
 				280361031DA26F17008FDFCD /* NSObject+ZJQConstant.h */,
+				280361261DA5F353008FDFCD /* UIScrollView+ZJQRefresh.h */,
+				280361271DA5F353008FDFCD /* UIScrollView+ZJQRefresh.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -351,6 +362,10 @@
 		2854512E1DA21BAF00C887E5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				280361171DA4E4BE008FDFCD /* ZJQheaderAdModel.h */,
+				280361181DA4E4BE008FDFCD /* ZJQheaderAdModel.m */,
+				280361231DA5F209008FDFCD /* ZJQheaderAdListModel.h */,
+				280361241DA5F209008FDFCD /* ZJQheaderAdListModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -569,14 +584,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280361191DA4E4BE008FDFCD /* ZJQheaderAdModel.m in Sources */,
 				280361161DA37F8B008FDFCD /* ZJQNetworkManager.m in Sources */,
 				285451321DA21BAF00C887E5 /* main.m in Sources */,
 				285451431DA233EC00C887E5 /* ZJQMainViewController.m in Sources */,
 				2803610B1DA29C93008FDFCD /* ZJQVerticalBtn.m in Sources */,
 				285451351DA21C6F00C887E5 /* ZJQTabBarController.m in Sources */,
+				280361281DA5F353008FDFCD /* UIScrollView+ZJQRefresh.m in Sources */,
 				2854513E1DA233CA00C887E5 /* ZJQDiscoverViewController.m in Sources */,
 				285451311DA21BAF00C887E5 /* AppDelegate.m in Sources */,
 				285451391DA233AF00C887E5 /* ZJQMineViewController.m in Sources */,
+				280361251DA5F209008FDFCD /* ZJQheaderAdListModel.m in Sources */,
 				280360FD1DA26BE1008FDFCD /* ZJQHeaderViewCell.m in Sources */,
 				280361021DA26CA0008FDFCD /* UIView+ZJQExtention.m in Sources */,
 			);
