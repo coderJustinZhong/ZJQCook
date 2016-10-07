@@ -15,6 +15,13 @@
 		280361191DA4E4BE008FDFCD /* ZJQheaderAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 280361181DA4E4BE008FDFCD /* ZJQheaderAdModel.m */; };
 		280361251DA5F209008FDFCD /* ZJQheaderAdListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 280361241DA5F209008FDFCD /* ZJQheaderAdListModel.m */; };
 		280361281DA5F353008FDFCD /* UIScrollView+ZJQRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 280361271DA5F353008FDFCD /* UIScrollView+ZJQRefresh.m */; };
+		2803612B1DA5FED5008FDFCD /* ZJQNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2803612A1DA5FED5008FDFCD /* ZJQNetWorkTool.m */; };
+		2803612E1DA63061008FDFCD /* ZJQAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2803612D1DA63061008FDFCD /* ZJQAdView.m */; };
+		280361311DA655B6008FDFCD /* ZJQheaderActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 280361301DA655B6008FDFCD /* ZJQheaderActivityModel.m */; };
+		280361341DA6966B008FDFCD /* ZJQMainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 280361331DA6966B008FDFCD /* ZJQMainViewCell.m */; };
+		280361361DA69679008FDFCD /* ZJQMainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280361351DA69679008FDFCD /* ZJQMainViewCell.xib */; };
+		280361391DA6A112008FDFCD /* ZJQMainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 280361381DA6A112008FDFCD /* ZJQMainViewModel.m */; };
+		2803613C1DA6A812008FDFCD /* ZJQDishesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2803613B1DA6A812008FDFCD /* ZJQDishesModel.m */; };
 		285450E41DA21A0900C887E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285450E31DA21A0900C887E5 /* Assets.xcassets */; };
 		285450F21DA21A0900C887E5 /* ZJQCookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 285450F11DA21A0900C887E5 /* ZJQCookTests.m */; };
 		285450FD1DA21A0900C887E5 /* ZJQCookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 285450FC1DA21A0900C887E5 /* ZJQCookUITests.m */; };
@@ -64,6 +71,19 @@
 		280361241DA5F209008FDFCD /* ZJQheaderAdListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJQheaderAdListModel.m; sourceTree = "<group>"; };
 		280361261DA5F353008FDFCD /* UIScrollView+ZJQRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ZJQRefresh.h"; sourceTree = "<group>"; };
 		280361271DA5F353008FDFCD /* UIScrollView+ZJQRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ZJQRefresh.m"; sourceTree = "<group>"; };
+		280361291DA5FED5008FDFCD /* ZJQNetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJQNetWorkTool.h; sourceTree = "<group>"; };
+		2803612A1DA5FED5008FDFCD /* ZJQNetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJQNetWorkTool.m; sourceTree = "<group>"; };
+		2803612C1DA63061008FDFCD /* ZJQAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJQAdView.h; sourceTree = "<group>"; };
+		2803612D1DA63061008FDFCD /* ZJQAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJQAdView.m; sourceTree = "<group>"; };
+		2803612F1DA655B6008FDFCD /* ZJQheaderActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJQheaderActivityModel.h; sourceTree = "<group>"; };
+		280361301DA655B6008FDFCD /* ZJQheaderActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJQheaderActivityModel.m; sourceTree = "<group>"; };
+		280361321DA6966B008FDFCD /* ZJQMainViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJQMainViewCell.h; sourceTree = "<group>"; };
+		280361331DA6966B008FDFCD /* ZJQMainViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJQMainViewCell.m; sourceTree = "<group>"; };
+		280361351DA69679008FDFCD /* ZJQMainViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJQMainViewCell.xib; sourceTree = "<group>"; };
+		280361371DA6A112008FDFCD /* ZJQMainViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJQMainViewModel.h; sourceTree = "<group>"; };
+		280361381DA6A112008FDFCD /* ZJQMainViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJQMainViewModel.m; sourceTree = "<group>"; };
+		2803613A1DA6A812008FDFCD /* ZJQDishesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJQDishesModel.h; sourceTree = "<group>"; };
+		2803613B1DA6A812008FDFCD /* ZJQDishesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJQDishesModel.m; sourceTree = "<group>"; };
 		285450D41DA21A0900C887E5 /* ZJQCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJQCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		285450E31DA21A0900C887E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		285450E81DA21A0900C887E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -167,6 +187,8 @@
 		280361131DA37F4F008FDFCD /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				280361291DA5FED5008FDFCD /* ZJQNetWorkTool.h */,
+				2803612A1DA5FED5008FDFCD /* ZJQNetWorkTool.m */,
 				280361141DA37F8B008FDFCD /* ZJQNetworkManager.h */,
 				280361151DA37F8B008FDFCD /* ZJQNetworkManager.m */,
 			);
@@ -366,6 +388,12 @@
 				280361181DA4E4BE008FDFCD /* ZJQheaderAdModel.m */,
 				280361231DA5F209008FDFCD /* ZJQheaderAdListModel.h */,
 				280361241DA5F209008FDFCD /* ZJQheaderAdListModel.m */,
+				2803612F1DA655B6008FDFCD /* ZJQheaderActivityModel.h */,
+				280361301DA655B6008FDFCD /* ZJQheaderActivityModel.m */,
+				280361371DA6A112008FDFCD /* ZJQMainViewModel.h */,
+				280361381DA6A112008FDFCD /* ZJQMainViewModel.m */,
+				2803613A1DA6A812008FDFCD /* ZJQDishesModel.h */,
+				2803613B1DA6A812008FDFCD /* ZJQDishesModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -378,6 +406,11 @@
 				280360FC1DA26BE1008FDFCD /* ZJQHeaderViewCell.xib */,
 				280361091DA29C93008FDFCD /* ZJQVerticalBtn.h */,
 				2803610A1DA29C93008FDFCD /* ZJQVerticalBtn.m */,
+				2803612C1DA63061008FDFCD /* ZJQAdView.h */,
+				2803612D1DA63061008FDFCD /* ZJQAdView.m */,
+				280361321DA6966B008FDFCD /* ZJQMainViewCell.h */,
+				280361331DA6966B008FDFCD /* ZJQMainViewCell.m */,
+				280361351DA69679008FDFCD /* ZJQMainViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -511,6 +544,7 @@
 				285451441DA233EC00C887E5 /* ZJQMainViewController.xib in Resources */,
 				285450E41DA21A0900C887E5 /* Assets.xcassets in Resources */,
 				2854513F1DA233CA00C887E5 /* ZJQDiscoverViewController.xib in Resources */,
+				280361361DA69679008FDFCD /* ZJQMainViewCell.xib in Resources */,
 				2854513A1DA233AF00C887E5 /* ZJQMineViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,18 +619,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				280361191DA4E4BE008FDFCD /* ZJQheaderAdModel.m in Sources */,
+				2803612E1DA63061008FDFCD /* ZJQAdView.m in Sources */,
 				280361161DA37F8B008FDFCD /* ZJQNetworkManager.m in Sources */,
+				280361391DA6A112008FDFCD /* ZJQMainViewModel.m in Sources */,
 				285451321DA21BAF00C887E5 /* main.m in Sources */,
+				280361341DA6966B008FDFCD /* ZJQMainViewCell.m in Sources */,
 				285451431DA233EC00C887E5 /* ZJQMainViewController.m in Sources */,
 				2803610B1DA29C93008FDFCD /* ZJQVerticalBtn.m in Sources */,
 				285451351DA21C6F00C887E5 /* ZJQTabBarController.m in Sources */,
 				280361281DA5F353008FDFCD /* UIScrollView+ZJQRefresh.m in Sources */,
 				2854513E1DA233CA00C887E5 /* ZJQDiscoverViewController.m in Sources */,
 				285451311DA21BAF00C887E5 /* AppDelegate.m in Sources */,
+				2803613C1DA6A812008FDFCD /* ZJQDishesModel.m in Sources */,
 				285451391DA233AF00C887E5 /* ZJQMineViewController.m in Sources */,
 				280361251DA5F209008FDFCD /* ZJQheaderAdListModel.m in Sources */,
 				280360FD1DA26BE1008FDFCD /* ZJQHeaderViewCell.m in Sources */,
+				2803612B1DA5FED5008FDFCD /* ZJQNetWorkTool.m in Sources */,
 				280361021DA26CA0008FDFCD /* UIView+ZJQExtention.m in Sources */,
+				280361311DA655B6008FDFCD /* ZJQheaderActivityModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

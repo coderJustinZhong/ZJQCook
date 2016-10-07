@@ -15,16 +15,9 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kkV-Pd-fmO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
-                        <color key="backgroundColor" red="0.852105437495004" green="1" blue="0.50689640143044157" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="190" id="cEs-GX-wgR"/>
-                        </constraints>
-                    </view>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JHl-6g-iiw">
-                        <rect key="frame" x="0.0" y="190" width="320" height="90"/>
-                        <color key="backgroundColor" red="0.98039215690000003" green="0.52156862749999999" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="90" id="LVm-ZG-Z1n"/>
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zfu-NE-FtB">
@@ -38,21 +31,54 @@
                                 <rect key="frame" x="160" y="0.0" width="160" height="69.5"/>
                                 <state key="normal" backgroundImage="无信号"/>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcS-AS-kDR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                                <color key="backgroundColor" red="0.84313725490000002" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="F4s-B5-Yxe"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JJg-Pz-vaC">
+                                <rect key="frame" x="159.5" y="0.0" width="1" height="69.5"/>
+                                <color key="backgroundColor" red="0.84313725490000002" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="bgm-2x-LNf"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.98352628946304321" green="0.016190983355045319" blue="0.36211773753166199" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="61L-13-Vr4" firstAttribute="top" secondItem="zfu-NE-FtB" secondAttribute="top" id="9bN-iC-PZ5"/>
+                            <constraint firstItem="qcS-AS-kDR" firstAttribute="leading" secondItem="zfu-NE-FtB" secondAttribute="leading" id="A7K-OZ-8f0"/>
                             <constraint firstAttribute="bottom" secondItem="61L-13-Vr4" secondAttribute="bottom" id="AUR-Uc-M7H"/>
                             <constraint firstAttribute="trailing" secondItem="hQ5-9O-hge" secondAttribute="trailing" id="H9P-PO-1TH"/>
+                            <constraint firstAttribute="bottom" secondItem="JJg-Pz-vaC" secondAttribute="bottom" id="V3t-3g-SI6"/>
+                            <constraint firstItem="JJg-Pz-vaC" firstAttribute="centerX" secondItem="zfu-NE-FtB" secondAttribute="centerX" id="deN-we-kvg"/>
                             <constraint firstAttribute="bottom" secondItem="hQ5-9O-hge" secondAttribute="bottom" id="esk-mS-w6N"/>
                             <constraint firstItem="61L-13-Vr4" firstAttribute="leading" secondItem="zfu-NE-FtB" secondAttribute="leading" id="fxx-GM-rze"/>
+                            <constraint firstItem="qcS-AS-kDR" firstAttribute="top" secondItem="zfu-NE-FtB" secondAttribute="top" id="kLn-NZ-Tdi"/>
                             <constraint firstItem="hQ5-9O-hge" firstAttribute="leading" secondItem="61L-13-Vr4" secondAttribute="trailing" id="oF7-AF-1iO"/>
                             <constraint firstItem="hQ5-9O-hge" firstAttribute="top" secondItem="zfu-NE-FtB" secondAttribute="top" id="p6k-uA-dsS"/>
+                            <constraint firstItem="JJg-Pz-vaC" firstAttribute="top" secondItem="zfu-NE-FtB" secondAttribute="top" id="qNQ-Tu-aTY"/>
+                            <constraint firstAttribute="trailing" secondItem="qcS-AS-kDR" secondAttribute="trailing" id="rh6-3G-0ox"/>
                             <constraint firstItem="hQ5-9O-hge" firstAttribute="width" secondItem="61L-13-Vr4" secondAttribute="width" id="urA-zi-pm5"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_banner_mask" translatesAutoresizingMaskIntoConstraints="NO" id="5Gx-eL-7hd">
+                        <rect key="frame" x="0.0" y="180" width="320" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="BvR-yQ-RJc"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JHl-6g-iiw">
+                        <rect key="frame" x="0.0" y="190" width="320" height="90"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="LVm-ZG-Z1n"/>
                         </constraints>
                     </view>
                 </subviews>
                 <constraints>
+                    <constraint firstAttribute="trailing" secondItem="5Gx-eL-7hd" secondAttribute="trailing" id="67V-bS-qy2"/>
                     <constraint firstAttribute="bottom" secondItem="zfu-NE-FtB" secondAttribute="bottom" id="EIs-6P-cAK"/>
                     <constraint firstAttribute="trailing" secondItem="JHl-6g-iiw" secondAttribute="trailing" id="FxK-4J-5Ss"/>
                     <constraint firstItem="zfu-NE-FtB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="LGp-q6-GaA"/>
@@ -60,6 +86,8 @@
                     <constraint firstItem="JHl-6g-iiw" firstAttribute="top" secondItem="kkV-Pd-fmO" secondAttribute="bottom" id="V3e-X0-wJI"/>
                     <constraint firstItem="kkV-Pd-fmO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Zur-aK-nwD"/>
                     <constraint firstAttribute="trailing" secondItem="kkV-Pd-fmO" secondAttribute="trailing" id="c8c-5M-gC1"/>
+                    <constraint firstItem="5Gx-eL-7hd" firstAttribute="bottom" secondItem="kkV-Pd-fmO" secondAttribute="bottom" id="crF-c8-xi8"/>
+                    <constraint firstItem="5Gx-eL-7hd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="lFv-Jh-Cff"/>
                     <constraint firstItem="zfu-NE-FtB" firstAttribute="top" secondItem="JHl-6g-iiw" secondAttribute="bottom" id="p5l-ts-08g"/>
                     <constraint firstItem="kkV-Pd-fmO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="shM-li-o5I"/>
                     <constraint firstItem="JHl-6g-iiw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="u4t-PA-kVZ"/>
@@ -75,6 +103,7 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="home_banner_mask" width="375" height="13"/>
         <image name="无信号" width="253" height="227"/>
     </resources>
 </document>

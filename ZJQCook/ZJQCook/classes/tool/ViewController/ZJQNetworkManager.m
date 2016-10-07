@@ -14,7 +14,7 @@
 
 @implementation ZJQNetworkManager
 
-+ (instancetype)shareNetworkTool
++ (instancetype)shareManager
 {
     static ZJQNetworkManager * instance;
     static dispatch_once_t onceToken ;

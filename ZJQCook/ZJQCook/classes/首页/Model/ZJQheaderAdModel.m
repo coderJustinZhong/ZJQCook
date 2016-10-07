@@ -8,7 +8,7 @@
 
 #import "ZJQheaderAdModel.h"
 #import "MJExtension.h"
-#import "ZJQheaderAdListModel.h"
+
 
 @implementation ZJQheaderAdModel
 

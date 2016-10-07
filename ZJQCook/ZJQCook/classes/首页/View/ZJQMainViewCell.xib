@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Main" rowHeight="240" id="9Y0-Ad-Dkc" customClass="ZJQMainViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="254"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Y0-Ad-Dkc" id="oIA-FL-US7">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="253.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uf6-NM-Zsq">
+                        <rect key="frame" x="10" y="10" width="300" height="171.5"/>
+                        <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="uf6-NM-Zsq" secondAttribute="height" multiplier="7:4" id="uHg-9P-sLr"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGc-KW-a2O">
+                        <rect key="frame" x="10" y="191" width="112" height="22.5"/>
+                        <attributedString key="attributedText">
+                            <fragment content="海姑娘私家秘制麻">
+                                <attributes>
+                                    <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="702米 和谐雅园7号楼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2S5-3R-yIK">
+                        <rect key="frame" x="132" y="196" width="97" height="12"/>
+                        <color key="backgroundColor" red="0.84313725490000002" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Om6-4n-o9t">
+                        <rect key="frame" x="256" y="159" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="avm-ra-1cb"/>
+                            <constraint firstAttribute="width" constant="44" id="pc8-5F-i0d"/>
+                        </constraints>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kitchendetails_certificate_icon" translatesAutoresizingMaskIntoConstraints="NO" id="RhV-Nq-8Pz">
+                        <rect key="frame" x="253" y="198" width="50" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="K8H-mp-edV"/>
+                            <constraint firstAttribute="width" constant="50" id="mPK-Cy-SFq"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="月售21单·" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vi-Ju-RXE">
+                        <rect key="frame" x="10" y="224" width="48.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="3h5-eg-wAF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5.0分·人均￥71·山东 威海人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yd-VF-wB7">
+                        <rect key="frame" x="58.5" y="227" width="137" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uf6-NM-Zsq" firstAttribute="top" secondItem="oIA-FL-US7" secondAttribute="top" constant="10" id="3Kl-CY-3nJ"/>
+                    <constraint firstItem="uf6-NM-Zsq" firstAttribute="leading" secondItem="oIA-FL-US7" secondAttribute="leading" constant="10" id="3k5-Rz-5jf"/>
+                    <constraint firstItem="YGc-KW-a2O" firstAttribute="top" secondItem="uf6-NM-Zsq" secondAttribute="bottom" constant="10" id="6Ew-IA-K83"/>
+                    <constraint firstAttribute="bottom" secondItem="9Vi-Ju-RXE" secondAttribute="bottom" constant="10" id="9Q9-ng-4Sn"/>
+                    <constraint firstItem="9Vi-Ju-RXE" firstAttribute="top" secondItem="YGc-KW-a2O" secondAttribute="bottom" constant="10" id="AzY-YJ-nDl"/>
+                    <constraint firstItem="7Yd-VF-wB7" firstAttribute="centerY" secondItem="9Vi-Ju-RXE" secondAttribute="centerY" id="D3i-Sp-Pfc"/>
+                    <constraint firstItem="Om6-4n-o9t" firstAttribute="bottom" secondItem="uf6-NM-Zsq" secondAttribute="bottom" constant="22" id="I9Z-H6-r40"/>
+                    <constraint firstItem="9Vi-Ju-RXE" firstAttribute="leading" secondItem="YGc-KW-a2O" secondAttribute="leading" id="PaK-fr-6BT"/>
+                    <constraint firstItem="RhV-Nq-8Pz" firstAttribute="centerX" secondItem="Om6-4n-o9t" secondAttribute="centerX" id="RFM-au-BNf"/>
+                    <constraint firstItem="7Yd-VF-wB7" firstAttribute="leading" secondItem="9Vi-Ju-RXE" secondAttribute="trailing" id="Rwb-y8-tVo"/>
+                    <constraint firstItem="2S5-3R-yIK" firstAttribute="centerY" secondItem="YGc-KW-a2O" secondAttribute="centerY" id="Sos-Iz-lVH"/>
+                    <constraint firstItem="2S5-3R-yIK" firstAttribute="leading" secondItem="YGc-KW-a2O" secondAttribute="trailing" constant="10" id="TsZ-9R-xWl"/>
+                    <constraint firstItem="RhV-Nq-8Pz" firstAttribute="top" secondItem="Om6-4n-o9t" secondAttribute="bottom" constant="-5" id="oU5-Za-WNj"/>
+                    <constraint firstItem="YGc-KW-a2O" firstAttribute="leading" secondItem="uf6-NM-Zsq" secondAttribute="leading" id="oaE-4D-xQ5"/>
+                    <constraint firstAttribute="trailing" secondItem="uf6-NM-Zsq" secondAttribute="trailing" constant="10" id="wbS-D5-4f8"/>
+                    <constraint firstItem="Om6-4n-o9t" firstAttribute="trailing" secondItem="uf6-NM-Zsq" secondAttribute="trailing" constant="-10" id="wqu-6t-36X"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLab" destination="2S5-3R-yIK" id="qaP-vc-ynN"/>
+                <outlet property="detailLab" destination="9Vi-Ju-RXE" id="d4a-bL-59t"/>
+                <outlet property="detailLab2" destination="7Yd-VF-wB7" id="kvM-x8-HJf"/>
+                <outlet property="dishView" destination="uf6-NM-Zsq" id="Brh-Gn-xhy"/>
+                <outlet property="icon" destination="Om6-4n-o9t" id="Z3c-sJ-SE0"/>
+                <outlet property="nameLab" destination="YGc-KW-a2O" id="YL3-5o-iLI"/>
+                <outlet property="vipIcon" destination="RhV-Nq-8Pz" id="cKL-7p-a7S"/>
+            </connections>
+            <point key="canvasLocation" x="309" y="319"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="kitchendetails_certificate_icon" width="70" height="24"/>
+    </resources>
+</document>

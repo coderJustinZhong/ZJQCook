@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class ZJQheaderAdModel;
 
 @interface ZJQHeaderViewCell : UITableViewCell
 /**自动轮转广告模型*/
-@property(strong,nonatomic)id headerAdModel;
-
+@property(strong,nonatomic)ZJQheaderAdModel * headerAdModel;
+@property(strong,nonatomic)NSArray * headerActModels;
 
 @end
